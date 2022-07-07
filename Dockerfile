@@ -1,6 +1,6 @@
 FROM php:7.1-apache
 
-ENV SOURCEBANS_VERSION=1.6.3 \
+ENV SOURCEBANS_VERSION=1.6.4 \
     REMOVE_SETUP_DIRS=false
 
 RUN apt-get update && \
