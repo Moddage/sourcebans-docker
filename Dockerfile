@@ -1,4 +1,4 @@
-FROM php:7.1-apache
+FROM php:7.3-apache
 
 ENV SOURCEBANS_VERSION=1.6.4 \
     REMOVE_SETUP_DIRS=false
